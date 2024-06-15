@@ -17,6 +17,10 @@ The `systemd` package is installed so that this container image can be used to t
 
 This container image is built and uploaded automatically to Docker Hub once a week and any time a commit is made or merged to the `main` branch.
 
+## 🧑‍💻 Image details
+
+To get the container image that is created from this repository, execute: `docker pull fernandobohrer/docker-ansible-debian-12:latest`
+
 ## 🏷️ Tags
 
 - `latest`: Latest stable version of `ansible`.
