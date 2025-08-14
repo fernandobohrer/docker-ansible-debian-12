@@ -4,7 +4,7 @@ LABEL maintainer="Fernando Bohrer"
 
 ARG DEBIAN_FRONTEND=noninteractive
 
-ENV PIP_PACKAGES "ansible"
+ENV PIP_PACKAGES="ansible"
 
 RUN apt-get update \
     && apt-get -y install --no-install-recommends \
